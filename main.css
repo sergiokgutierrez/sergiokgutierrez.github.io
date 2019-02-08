@@ -1,0 +1,11 @@
+.header {
+    position: relative;
+}
+
+.header img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    max-width: 128px;
+}
