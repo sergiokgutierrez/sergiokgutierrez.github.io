@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" type="text/css" href="./main.css">
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
 body {font-size:16px;}
@@ -39,23 +40,22 @@ body {font-size:16px;}
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:340px;margin-right:40px">
+<div class="w3-main " style="margin-left:340px;margin-right:40px">
 
   <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="freeFood">
+  <div class="w3-container header" style="margin-top:80px" id="freeFood">
     <h1 class="w3-jumbo"><b>NOVA TRANSFERS</b></h1>
     <h1 class="w3-xxxlarge w3-text-red"><b>About</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
+      <img src="/images/logo.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
   </div>
   
   <!-- Photo grid (modal) -->
   <div class="w3-row-padding">
-    <div class="w3-half">
-      <img src="/images/logo.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="/images/presentation.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-    </div>
 
-    <div class="w3-half">
+    <div class="w3-full img-gallery">
+          <img src="/images/presentation.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+
             <img src="/images/burger.png" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
       <img src="/images/food.png" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
     </div>
@@ -117,7 +117,7 @@ body {font-size:16px;}
   </div>
 
     <!-- The Team -->
-  <div class="w3-row-padding w3-grayscale">
+  <div class="w3-row-padding w3-grayscale liasons">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
         <img src="/images/gabi.jpg" alt="Gaby" style="width:100%">
